@@ -4,3 +4,12 @@
     top: 30% !important;
     font-size: 0.2667rem /* 20px -> 0.2667rem */;
 }
+.swiper{
+    overflow: hidden;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: auto !important;
+}
+.swiper-pagination{
+    text-align: right;
+}
