@@ -6,7 +6,7 @@
       var clientWidth = docEl.clientWidth; // 获取到窗口的宽度
       if (!clientWidth) return; // 如果没有获取到，直接返回 退出
       if (clientWidth >= WIDTH) { // 判断浏览器宽度是否大于某个值
-        docEl.style.fontSize = '99.999975px'; // 防止用户使用电脑访问移动端页面时，页面布局不好看
+        docEl.style.fontSize = '100px'; // 防止用户使用电脑访问移动端页面时，页面布局不好看
       } else {
         docEl.style.fontSize = 100 * (clientWidth / WIDTH) + 'px';
       }
