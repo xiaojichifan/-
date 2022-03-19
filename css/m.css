@@ -79,7 +79,7 @@ ul,li{
     display: flex;
     align-items: center;
     margin-top:7% !important ;
-}
+}                
 .train{
     width: 32%;
     height:1.333rem;
@@ -88,3 +88,91 @@ ul,li{
     align-items: center;
     margin-top:7% !important /* 30px -> 0.4rem */;
 }
+  
+.home{
+ background: rgba(0,0,0,.4);
+height: .8rem;
+width: 100%;
+color: white;
+position: fixed;
+top: 0;
+}
+.tent1{
+margin-left: .6rem;
+ line-height: .8rem;
+height: .8rem;
+ font-size: .16rem;
+}
+.lent6{
+ margin-right: .6rem;
+margin-top: .1rem;
+font-size: .16rem;
+}
+.lent3{
+ font-size: .1rem;
+}
+.lent2{
+
+ margin-top: .1rem;
+}
+.lent4{
+
+ margin-top: .1rem;
+}
+.lent5{
+
+ margin-top: .1rem;
+}
+.home-1{
+width: 100%;
+height: 1.8rem;
+background: rgba(0,0,0,.4);
+display: flex;
+position: fixed;
+top: .8rem;
+
+
+}
+.ki{
+ margin-top: .4rem;
+margin-left: .4rem;
+}
+.ki img{
+ width: .5rem;
+height: .7rem; margin-top: .16rem;
+}
+.input{
+ width: 80%;
+display: flex;
+border: .02rem solid #c3c4c5;
+border-radius: .8rem; height: 1rem;
+margin-top: .4rem;
+
+}
+
+.input img{
+
+width: .5rem;
+height: .7rem;
+margin-left: .3rem;
+margin-top: .16rem;
+}
+.bedr{
+height: 1rem;
+ border-right: #c3c4c5 1px solid;
+line-height: 1rem;
+font-size: .16rem;
+color: whitesmoke;
+width: .7rem;
+}
+.ss img{
+width: .7rem;
+ height: .7rem;
+}
+.fei{
+ color: #c3c4c5;
+ font-size: .16rem;
+line-height: 1rem;
+ height: 1rem;
+}
+
