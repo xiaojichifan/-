@@ -17,11 +17,8 @@
 <ul class="home clearfix z">
 <li class="tent1 fl">中国移动 3G</li>
    <li class="lent6 fr" style="padding-top: 0.1333rem;">16:25</li>
-   <li class="lent5 fr"><img src="../images/03-首页_08.png" alt=""></li>
-  <li class="lent2 fr"><img src="../images/03-首页_06.png" alt=""></li>
   <li class="lent3 fr" style="padding-top: 0.2033rem;">3G</li>
   
-  <li class="lent4 fr"><img src="../images/03-首页_03.png" alt=""></li>
   </ul>
   <div class="home-1">
  
@@ -167,14 +164,14 @@
   <div class="son fl">
        <img src="../img/03-home_16.jpg" alt="" style="width: 100%;">
        <p style="padding-top: 6%;">台湾环岛8月七日跟团游</p>
-       <p style="">甩尾狂甩3人行1人免单...</p>
+       <p>甩尾狂甩3人行1人免单...</p>
        <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
        <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1999起</p>
   </div>
   <div class="son fl" style="margin-left: 2%;">
    <img src="../img/03-home_18.jpg" alt="" style="width: 100%;">
    <p style="padding-top: 6%;">巴厘岛七日六晚自由行。五</p>
-   <p style="">星豪庭，三星价格3月特...</p>
+   <p>星豪庭，三星价格3月特...</p>
    <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
    <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>2999起</p>
  </div> 
@@ -183,11 +180,72 @@
 
 
 <!-- 底部盒子 -->
-
-
-
+<div class="foot clearfix" style="text-align: center;"> 
+     <div class="fl icon"> 
+        <img src="../img/未标题-1_01.png" class="img1" alt="" style="width: 0.5333rem;;">
+        <p class="txt1">首页</p>
+     </div>
+     <div class="fl icon"> 
+      <img class="img2" src="../img/未标题-1_02.png" alt="" style="width: 0.5333rem;;">
+      <p class="txt2">目的地</p>
+   </div>
+   <div class="fl icon"> 
+    <img class="img3" src="../img/未标题-1_03.png" alt="" style="width: 0.5333rem;;">
+    <p class="txt3">浏览历史</p>
+ </div>
+ <div class="fl icon"> 
+  <img class="img4" src="../img/未标题-1_08.png" alt="" style="width: 0.5333rem;;">
+  <p class="txt4">个人</p>
+</div>
+</div>
 </body>
-<script>        
+<script>
+
+var img1 = document.querySelector('.img1')
+var txt1 = document.querySelector('.txt1')
+img1.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_05.png'
+  txt1.style.color = '#00f'
+})
+img1.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_01.png'
+  txt1.style.color = '#000'
+})
+
+var img1 = document.querySelector('.img2')
+var txt1 = document.querySelector('.txt2')
+img1.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_06.png'
+  txt1.style.color = '#00f'
+})
+img1.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_02.png'
+  txt1.style.color = '#000'
+})
+
+var img1 = document.querySelector('.img3')
+var txt1 = document.querySelector('.txt3')
+img1.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_04.png'
+  txt1.style.color = '#00f'
+})
+img1.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_03.png'
+  txt1.style.color = '#000'
+})
+
+var img1 = document.querySelector('.img4')
+var txt1 = document.querySelector('.txt4')
+img1.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_07.png'
+  txt1.style.color = '#00f'
+})
+img1.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_08.png'
+  txt1.style.color = '#000'
+})
+
+
   var mySwiper = new Swiper ('.swiper', {
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项

@@ -115,15 +115,27 @@ ul,li{
 }
 .example{
     width:96%;
-    background: aqua;
+  
     height: 4rem /* 300px -> 4rem */;
     margin-top: 0.2667rem /* 20px -> 0.2667rem */;
     margin-left: 2%;
 }
 .son{
     width: 47%;
-    background: red;
+   
     height: 4rem;
+}
+
+
+
+.foot{
+    width: 100%;
+    background:#EDEDED;
+    height: 1.0667rem /* 80px -> 1.0667rem */;
+}
+.icon{
+    width: 25%;
+    height: 1.0667rem /* 80px -> 1.0667rem */;
 }
 
 
