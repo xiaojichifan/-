@@ -118,10 +118,12 @@ ul,li{
     background: aqua;
     height: 4rem /* 300px -> 4rem */;
     margin-top: 0.2667rem /* 20px -> 0.2667rem */;
+    margin-left: 2%;
 }
 .son{
     width: 47%;
     background: red;
+    height: 4rem;
 }
 
 
