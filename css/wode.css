@@ -41,13 +41,15 @@ ul,li{
    }
 .head{
     width: 100%;
-    height: 2.667rem;
+    height: 2rem /* 150px -> 2rem */;
     background: #1448AE;
     margin-top: 0.5333rem /* 40px -> 0.5333rem */;
 }
 .head1{
     width: 1.3333rem;
     height: 1.333rem;
+    margin-left: 46%;
+    margin-top: 9%;
 }
 .head1 img{
     width: 100%;
@@ -57,9 +59,24 @@ ul,li{
 
 .inner{
     width: 100%;
-    height: 8rem /* 600px -> 8rem */;
-    
+    height: 4rem /* 600px -> 8rem */;
+    background:#EDF1F2 ;
+    text-align: center;
 }
+.inner1{
+    width: 49%;
+    height: 2rem;
+    background: aqua;
+    border-right: 0.0133rem /* 1px -> 0.0133rem */ dashed  #868C93;;
+}
+.inner2{
+    width: 49%;
+    height: 2rem;
+    background: aqua;
+}
+
+
+
    
 .foot{
     width: 100%;
