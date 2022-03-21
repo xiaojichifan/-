@@ -46,7 +46,7 @@
         </div> -->
         <div class="addition">
             <span class="add">+</span>
-            <input type="text" value="2">
+            <input class="inp" type="text" value="2">
             <span class="decreace">-</span>
         </div>
     </div>
@@ -85,7 +85,7 @@
     <div class="footer">
         <div class="end">
           <span>总额</span>
-          ￥6318
+         <span class="sums">6138</span>
           <span>细明></span>
         </div>
         <div class="stage">
@@ -121,6 +121,25 @@
             console.log('data:' + (data || 'None'));
         }
     });
+   
+    $('.add').click(function (params) {
+        $('.inp').val(parseFloat($('.inp').val())+1)
+        $('.sums').text($('.inp').val()*3315)
+    })
+    $('.decreace').click(function (params) {
+      
+        $('.inp').val(parseFloat($('.inp').val())-1)
+        $('.sums').text($('.inp').val()*3315)
+        if($('.inp').val()<0){
+            alert('不能在减少了')
+            $('.inp').val(0)
+            
+        }
+        if($('.sums').text()<0){
+            $('.sums').text(0)
+        }
+      
+    })
     </script>
 </body>
 
