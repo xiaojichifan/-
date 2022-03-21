@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/wode.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/zepto.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+   <ul class="home clearfix z">
+<li class="tent1 fl">中国移动 3G</li>
+   <li class="lent6 fr" style="padding-top: 0.1333rem;">16:25</li>
+  <li class="lent3 fr" style="padding-top: 0.2033rem;">3G</li>
+  </ul>
+
+
+<!-- 头部 -->
+<div class="head clearfix">
+       <img class="fl" src="../img/images/font-1_01_02.png" alt="" style="height: 0.5333rem; margin-top: 2%; margin-left: 4%;">
+      <div class="" style="text-align: center; padding-top: 4%;" >
+              <p style="color: #fff;">个人</p>
+      </div>
+      <div style="border-radius: 50%; overflow: hidden;" class="head1">
+        <img src="../img/07 我的.jpg" alt=" "> 
+    </div>
+      </div>
+
+
+      <!-- 底部 -->
+      <div class="foot clearfix" style="text-align: center;"> 
+     <div class="fl icon"> 
+        <img src="../img/未标题-1_01.png" class="img1" alt="" style="width: 0.5333rem;;">
+        <p class="txt1">首页</p>
+     </div>
+     <div class="fl icon"> 
+      <img class="img2" src="../img/未标题-1_02.png" alt="" style="width: 0.5333rem;;">
+      <p class="txt2">目的地</p>
+   </div>
+   <div class="fl icon"> 
+    <img class="img3" src="../img/未标题-1_03.png" alt="" style="width: 0.5333rem;;">
+    <p class="txt3">浏览历史</p>
+ </div>
+ <div class="fl icon"> 
+  <img class="img4" src="../img/未标题-1_08.png" alt="" style="width: 0.5333rem;;">
+  <p class="txt4">个人</p>
+</div>
+</div>
+</body>
+<script>
+   var img1 = document.querySelector('.img1')
+var txt1 = document.querySelector('.txt1')
+img1.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_05.png'
+  txt1.style.color = '#00f'
+})
+img1.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_01.png'
+  txt1.style.color = '#000'
+})
+
+var img2 = document.querySelector('.img2')
+var txt2 = document.querySelector('.txt2')
+img2.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_06.png'
+  txt2.style.color = '#00f'
+})
+img2.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_02.png'
+  txt2.style.color = '#000'
+})
+
+var img3 = document.querySelector('.img3')
+var txt3 = document.querySelector('.txt3')
+img3.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_04.png'
+  txt3.style.color = '#00f'
+})
+img3.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_03.png'
+  txt3.style.color = '#000'
+})
+
+var img4 = document.querySelector('.img4')
+var txt4 = document.querySelector('.txt4')
+img4.addEventListener('touchstart',function (){
+  this.src = '../img/未标题-1_07.png'
+  txt4.style.color = '#00f'
+})
+img4.addEventListener('touchend',function (){
+  this.src = '../img/未标题-1_08.png'
+  txt4.style.color = '#000'
+})
+
+
+
+
+</script>
+</html>
