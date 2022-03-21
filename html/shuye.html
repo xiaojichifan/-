@@ -17,8 +17,9 @@
 <ul class="home clearfix z">
 <li class="tent1 fl">中国移动 3G</li>
    <li class="lent6 fr" style="padding-top: 0.1333rem;">16:25</li>
-  <li class="lent3 fr" style="padding-top: 0.2033rem;">3G</li>
-  
+   <li class="fr"><img src="../img/03-首页_08.png" alt="" style="width: 0.4667rem; height: 0.6667rem; padding-top: 0.2333rem /* 10px -> 0.1333rem */;"></li>
+  <li class="lent3 fr" >3G</li> 
+  <li class="fr"><img src="../img/未标题-1_03.png" alt="" style="height: 0.4667rem; "></li>
   </ul>
   <div class="home-1">
  
@@ -41,11 +42,7 @@
     </div>
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
-    
-    <!-- 如果需要导航按钮 -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    
+
    
 </div>
 
@@ -145,35 +142,35 @@
 <!-- 第二次复制 -->
 <div class="example clearfix">
   <div class="son fl">
-       <img src="../img/03-home_16.jpg" alt="" style="width: 100%;">
-       <p style="padding-top: 6%;">台湾环岛8月七日跟团游</p>
-       <p style="">甩尾狂甩3人行1人免单...</p>
+       <img src="../img/03-home_22.jpg" alt="" style="width: 100%;">
+       <p style="padding-top: 6%;">韩国首尔5日四晚跟团游.</p>
+       <p style="">暑假预售商圈五花.好...</p>
        <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
-       <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1999起</p>
+       <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1699起</p>
   </div>
   <div class="son fl" style="margin-left: 2%;">
-   <img src="../img/03-home_18.jpg" alt="" style="width: 100%;">
-   <p style="padding-top: 6%;">巴厘岛七日六晚自由行。五</p>
-   <p style="">星豪庭，三星价格3月特...</p>
+   <img src="../img/03-home_23.jpg" alt="" style="width: 100%;">
+   <p style="padding-top: 6%;">马尔代夫六日行6月四日</p>
+   <p style="">晚.全球顶级海盗蜜月...</p>
    <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
-   <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>2999起</p>
+   <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>3699起</p>
  </div> 
 </div>
 
 <div class="example clearfix" style="margin-bottom: 0.2667rem;">
   <div class="son fl">
-       <img src="../img/03-home_16.jpg" alt="" style="width: 100%;">
-       <p style="padding-top: 6%;">台湾环岛8月七日跟团游</p>
-       <p>甩尾狂甩3人行1人免单...</p>
+       <img src="../img/03-home_26.jpg" alt="" style="width: 100%;">
+       <p style="padding-top: 6%;">香港五日自由行6月四日</p>
+       <p>晚.全球顶级海岛蜜月...</p>
        <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
-       <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1999起</p>
+       <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>1888起</p>
   </div>
   <div class="son fl" style="margin-left: 2%;">
-   <img src="../img/03-home_18.jpg" alt="" style="width: 100%;">
-   <p style="padding-top: 6%;">巴厘岛七日六晚自由行。五</p>
-   <p>星豪庭，三星价格3月特...</p>
+   <img src="../img/03-home_27.jpg" alt="" style="width: 100%;">
+   <p style="padding-top: 6%;">新加坡五月四日自由行。错</p>
+   <p>峰周末游。特赠送价值...</p>
    <p style="padding-top: 9%; float: left; color:#C1C1C1 ;">席位充足</p>
-   <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>2999起</p>
+   <p style="padding-top: 9%; float: right;color:#FF9200  ;"><span style="font-size: 0.1333rem; margin-top: -2%;">￥</span>3699起</p>
  </div> 
 </div>
 
@@ -247,6 +244,7 @@ img4.addEventListener('touchend',function (){
 
 
   var mySwiper = new Swiper ('.swiper', {
+    speed:1000,
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项
     
@@ -254,7 +252,9 @@ img4.addEventListener('touchend',function (){
     pagination: {
       el: '.swiper-pagination',
     },
-    
+    autoplay : {
+    delay:3000
+  },
     // 如果需要前进后退按钮
     navigation: {
       nextEl: '.swiper-button-next',
