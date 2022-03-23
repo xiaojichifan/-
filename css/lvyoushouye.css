@@ -37,3 +37,17 @@ ul,li{
     height: 3.3333rem /* 250px -> 3.3333rem */ /* 240px -> 3.2rem */;
     background: #ffff;
 }
+
+
+
+
+
+.foot{
+    width: 100%;
+    background:#EDEDED;
+    height: 1.0667rem /* 80px -> 1.0667rem */;
+}
+.icon{
+    width: 25%;
+    height: 1.0667rem /* 80px -> 1.0667rem */;
+}
