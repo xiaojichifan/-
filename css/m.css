@@ -141,26 +141,8 @@ ul,li{
 
 
   
-.home{
- background: rgba(0,0,0,.4);
-height: .8rem;
-width: 100%;
-color: white;
-position: fixed;
-top: 0;
-z-index: 999;
-}
-.tent1{
-margin-left: .6rem;
- line-height: .8rem;
-height: .8rem;
- font-size: .16rem;
-}
-.lent6{
- margin-right: .6rem;
-margin-top: .1rem;
-font-size: .16rem;
-}
+
+
 .lent3{
  font-size: .1rem;
 }
@@ -182,7 +164,6 @@ height: 1.8rem;
 background: rgba(0,0,0,.4);
 display: flex;
 position: fixed;
-top: .8rem;
 z-index: 999;
 }
 .ki{
