@@ -27,10 +27,11 @@ ul,li{
     background: #1448AE;
 }
 .head1{
-    width: 1.3333rem;
-    height: 1.333rem;
-    margin-left: 46%;
-    margin-top: 9%;
+    width: 2.0333rem;
+    height: 1.833rem;
+    margin-left: 40%;
+    margin-top: 6%;
+    border: 5px solid white;
 }
 .head1 img{
     width: 100%;
